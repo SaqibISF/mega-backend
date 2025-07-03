@@ -1,0 +1,14 @@
+node_modules
+package-lock.json
+
+./dist
+
+# exclude everything
+temp/*
+
+# exception to the rule
+!temp/.gitkeep
+
+*.env
+.env
+.env.*
