@@ -3,11 +3,7 @@ package-lock.json
 
 ./dist
 
-# exclude everything
-temp/*
-
-# exception to the rule
-!temp/.gitkeep
+temp
 
 *.env
 .env
